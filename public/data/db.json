@@ -3,12 +3,36 @@
     "id": 1,
     "name": "Producto 1",
     "price": 10,
-    "img": "url-del-producto-1"
+    "img": ""
   },
   {
     "id": 2,
     "name": "Producto 2",
     "price": 15,
-    "img": "url-del-producto-2"
+    "img": ""
+  },
+  {
+    "id": 2,
+    "name": "Producto 2",
+    "price": 15,
+    "img": ""
+  },
+  {
+    "id": 2,
+    "name": "Producto 2",
+    "price": 15,
+    "img": ""
+  },
+  {
+    "id": 2,
+    "name": "Producto 2",
+    "price": 15,
+    "img": ""
+  },
+  {
+    "id": 2,
+    "name": "Producto 2",
+    "price": 15,
+    "img": ""
   }
 ]

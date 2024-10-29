@@ -7,8 +7,13 @@ const Home = () => {
     <>
       <Navbar />
       <Banner />
-      <Products />
-      <h1>HOME</h1>
+
+      <body
+        className="flex flex-wrap justify-center
+      "
+      >
+        <Products />
+      </body>
     </>
   );
 };
