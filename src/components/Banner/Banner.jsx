@@ -1,6 +1,5 @@
 import React from "react";
-
-import BannerPrincipal from "../../../public/banner/bannerSimple.jpg";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -12,7 +11,22 @@ const Banner = () => {
           backgroundRepeat: "no-repeat",
           width: "100%",
         }}
-      ></div>
+      >
+        <div className="bg-gray-300 block flex-col text-center justify-center p-5">
+          <h2 className="text-2xl text-gray-900">
+            Ropa Esencial para cada día
+          </h2>
+          <button className="mt-2">
+            <Link
+              className="flex text-black bg-gray-400 border-0 py-2 px-8 
+                                focus:outline-none hover:bg-orange-500 rounded text-lg mt-10 sm:mt-0"
+              to="/tienda"
+            >
+              Tienda
+            </Link>
+          </button>
+        </div>
+      </div>
     </div>
   );
 };
