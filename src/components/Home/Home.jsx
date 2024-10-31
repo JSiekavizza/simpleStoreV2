@@ -10,15 +10,14 @@ const Home = () => {
       <Navbar />
       <Banner />
 
-      <body
+      <div
         className="flex flex-wrap justify-center
       "
       >
         <Products />
-      </body>
-      <div className="lg:flex flex-col items-center">
-        <News />
       </div>
+      <News />
+
       <div className="bg-gray-200 mb-0 bottom-0 w-full p-4 mt-7">
         <Footer />
       </div>
