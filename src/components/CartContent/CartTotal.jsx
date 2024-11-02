@@ -8,8 +8,8 @@ const CartTotal = () => {
 
   const total = cart.reduce((acc, el) => acc + el.price * el.quanty, 0);
   return (
-    <div className="">
-      <h3>Total a pagar: {total} $ </h3>
+    <div className="bg-black p-5 text-center mt-5">
+      <h3 className="text-white">{total} $ </h3>
     </div>
   );
 };

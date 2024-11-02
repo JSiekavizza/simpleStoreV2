@@ -10,8 +10,10 @@ const CartContent = () => {
 
   return cart.length > 0 ? (
     <>
-      <CartElements />
-      <CartTotal />
+      <div className="bg-gray-400 flex flex-col justify-arround p-3  mt-5">
+        <CartElements />
+        <CartTotal />
+      </div>
     </>
   ) : (
     <h2>Tu carrito esta vacio</h2>

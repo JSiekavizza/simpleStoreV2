@@ -20,13 +20,15 @@ const CartItemCounter = ({ product }) => {
   };
   return (
     <>
-      <p className="" onClick={decrese}>
-        -
-      </p>
-      <p>{product.quanty}</p>
-      <p className="" onClick={() => buyProducts(product)}>
-        +
-      </p>
+      <div className="flex items-center justify-between w-56">
+        <p className="text-white" onClick={decrese}>
+          -
+        </p>
+        <p>{product.quanty}</p>
+        <p className="text-white" onClick={() => buyProducts(product)}>
+          +
+        </p>
+      </div>
     </>
   );
 };
