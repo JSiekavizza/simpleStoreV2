@@ -18,7 +18,7 @@ const Home = () => {
       </div>
       <News />
 
-      <div className="bg-gray-200 mb-0 bottom-0 w-full p-4 mt-7">
+      <div className="bg-gray-200 mt-auto p-4">
         <Footer />
       </div>
     </>

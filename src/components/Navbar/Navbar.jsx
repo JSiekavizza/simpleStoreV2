@@ -1,8 +1,14 @@
+import { useContext } from "react";
+import { dataContext } from "../Context/dataContext.jsx";
+
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsCart4 } from "react-icons/bs";
 
+import TotalItems from "../CartContent/TotalItems";
+
 const Navbar = () => {
+  const { cart } = useContext(dataContext);
   return (
     <div className="">
       <nav className="flex items-center justify-between p-4   z-10 lg:justify-between">
@@ -14,6 +20,7 @@ const Navbar = () => {
           </Link>
           <Link className="text-xl" to={"/cart"}>
             <BsCart4 />
+            {cart.length > 0 ? <TotalItems /> : null}
           </Link>
         </div>
       </nav>

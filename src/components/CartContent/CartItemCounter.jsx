@@ -21,11 +21,17 @@ const CartItemCounter = ({ product }) => {
   return (
     <>
       <div className="flex items-center justify-between w-56">
-        <p className="text-white" onClick={decrese}>
+        <p
+          className="bg-white text-black cursor-pointer rounded-xl p-2"
+          onClick={decrese}
+        >
           -
         </p>
         <p>{product.quanty}</p>
-        <p className="text-white" onClick={() => buyProducts(product)}>
+        <p
+          className="bg-white text-black cursor-pointer rounded-xl p-2"
+          onClick={() => buyProducts(product)}
+        >
           +
         </p>
       </div>
