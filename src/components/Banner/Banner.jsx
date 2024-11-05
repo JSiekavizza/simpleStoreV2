@@ -14,7 +14,7 @@ const Banner = () => {
       >
         <div className="bg-gray-300 block flex-col text-center justify-center p-5">
           <h2 className="text-2xl text-gray-900">
-            Ropa Esencial para cada día
+            Ropa Esencial para cada día.
           </h2>
           <button className="mt-2">
             <Link

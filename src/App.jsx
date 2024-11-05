@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar.jsx";
 import CartContent from "./components/CartContent/CartContent.jsx";
 import Tienda from "./components/Tienda/Tienda.jsx";
 import DataProvider from "./components/Context/dataContext.jsx";
+import ProductDetail from "./components/Products/ProductDetail.jsx";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
               </>
             }
           />
+          <Route path="/product/:id" element={<ProductDetail />} />
         </Routes>
       </BrowserRouter>
     </DataProvider>
