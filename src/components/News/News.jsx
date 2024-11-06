@@ -2,9 +2,9 @@ import React from "react";
 
 export default function News() {
   return (
-    <div className="grid grid-cols-1 mt-3">
+    <div className="grid grid-cols-1 my-9">
       <div
-        className="bg-center content-box bg-cover h-56 w-full"
+        className="bg-gray-300 block bg-center content-box bg-cover h-56 "
         style={{
           backgroundRepeat: "no-repeat",
         }}

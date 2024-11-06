@@ -11,7 +11,7 @@ const Navbar = () => {
   const { cart } = useContext(dataContext);
   return (
     <div className="">
-      <nav className="flex items-center justify-between p-4   z-10 lg:justify-between">
+      <nav className="flex items-center justify-between p-4 lg:justify-between">
         <div className="w-full flex items-center justify-between ">
           <Link to={"/"}>
             <h1 className="title-font text-xl font-light text-center mb-4 md:mb-0 hover:text-orange-600">

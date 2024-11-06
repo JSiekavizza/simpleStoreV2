@@ -27,7 +27,12 @@ const Products = () => {
                   {product.name}
                 </h2>
                 <p className="mt-1">{product.price}</p>
-                <button onClick={() => buyProducts(product)}>Comprar</button>
+                <button
+                  className="text-black bg-gray-300 rounded px-2 py-1.5 mt-3"
+                  onClick={() => buyProducts(product)}
+                >
+                  Comprar
+                </button>
               </div>
             </div>
           </div>
